@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>4x4 Puzzle Oyunu</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js"></script>
+</head>
+<body>
+  <div class="game-container">
+    <div class="game-board">
+      <!-- Puzzle kutularını buraya yerleştirin -->
+    </div>
+    <div class="game-controls">
+      <button id="start-button">Oyuna Başla</button>
+      <p id="timer">Süre: 00:00</p>
+      <p id="moves">Hamle: 0</p>
+    </div>
+  </div>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Puzzle Game</title>
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>My Puzzle Game</h1>
+        </div>
+        <div class="form">
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name">
+                <button type="submit">Start Game</button>
+            </form>
+        </div>
+        <div class="game-container">
+            <div class="game-board">
+                <div class="game-tile" id="tile-0"></div>
+                <div class="game-tile" id="tile-1"></div>
+                <div class="game-tile" id="tile-2"></div>
+                <div class="game-tile" id="tile-3"></div>
+                <div class="game-tile" id="tile-4"></div>
+                <div class="game-tile" id="tile-5"></div>
+                <div class="game-tile" id="tile-6"></div>
+                <div class="game-tile" id="tile-7"></div>
+                <div class="game-tile" id="tile-8"></div>
+                <div class="game-tile" id="tile-9"></div>
+                <div class="game-tile" id="tile-10"></div>
+                <div class="game-tile" id="tile-11"></div>
+                <div class="game-tile" id="tile-12"></div>
+                <div class="game-tile" id="tile-13"></div>
+                <div class="game-tile" id="tile-14"></div>
+                <div class="game-tile" id="tile-15"></div>
+            </div>
+            <div class="game-info">
+                <p>Score:</p>
+                <div id="score">0</div>
+            </div>
+        </div>
+    </div>
+    <script src="{% static 'js/script.js' %}"></script>
+</body>
+</html>

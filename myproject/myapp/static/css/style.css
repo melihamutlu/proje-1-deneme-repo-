@@ -1,0 +1,56 @@
+/* Game container */
+.game-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  /* Game board */
+  .game-board {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    gap: 10px;
+    background-color: #EEE;
+    padding: 10px;
+    border: 2px solid black;
+  }
+  
+  /* Game box */
+  .game-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+    background-color: white;
+    border: 2px solid black;
+    cursor: pointer;
+  }
+  
+  /* Game controls */
+  .game-controls {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 50px;
+  }
+  
+  /* Start button */
+  #start-button {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+    padding: 10px 20px;
+    background-color: #2E8B57;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  /* Timer and moves */
+  #timer, #moves {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+  }
+  
